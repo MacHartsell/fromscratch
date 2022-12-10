@@ -1,0 +1,60 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif; color: darkslateblue;
+  background-color: tan;
+}
+
+.navbar {
+   padding: 0;  text-align: center;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .navbar li {
+    position: relative;
+  }
+  
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    color: rgb(6, 1, 1);
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+  
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover>a {
+    color:slateblue;
+  }
+
+  .header {
+    align-items: center;
+    float: inherit;
+  }
+
+  .p{
+    text-align: left;
+    color: saddlebrown;
+  }
